@@ -1,6 +1,6 @@
 {
   "name": "grunt-init-ghpages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quickly build gh-pages documentation from a project README using Grunt.js and Assemble, a Node.js alternative to Jekyll.",
   "homepage": "https://github.com/assemble/assemble/",
   "author": {
