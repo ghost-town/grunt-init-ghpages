@@ -1,6 +1,6 @@
-# grunt-init-assemble
+# grunt-init-ghpages
 
-> Quickly launch Assemble-based projects using [grunt-init][], including starter templates and data.
+> Quickly build gh-pages documentation from a project README using Grunt.js and Assemble, a Node.js alternative to Jekyll.
 
 
 ## Getting started
@@ -15,14 +15,14 @@ npm i -g grunt-cli grunt-init
 Once [grunt-init][] is installed, place this template in your `~/.grunt-init/` directory. It's recommended that you use `git clone` to install this template into that directory as follows:
 
 ``` bash
-git clone https://github.com/assemble/grunt-init-assemble.git ~/.grunt-init/assemble
+git clone https://github.com/assemble/grunt-init-ghpages.git ~/.grunt-init/ghpages
 ```
 
 _(Windows users, see [the documentation][grunt-init] for the correct destination directory path)_
 
 To force `grunt-init` to use custom default values, move the `defaults.json` file to your `~/.grunt-init/` directory, and customize the values in that file.
 
-**Note**: you can make the template available as any name you choose by simply changing the name of the folder that the template is installed into. So instead of `~/.grunt-init/assemble`, you may change the name to `~/.grunt-init/foo` so that the template can be used with the following command: `grunt-init foo`.
+**Note**: you can make the template available as any name you choose by simply changing the name of the folder that the template is installed into. So instead of `~/.grunt-init/ghpages`, you may change the name to `~/.grunt-init/foo` so that the template can be used with the following command: `grunt-init foo`.
 
 ### Usage
 Now that `grunt init` is intalled. At the command-line, cd into an empty directory and run `grunt-init assemble` and follow the prompts. You might want to test that it works before you begin customizing the project:
@@ -44,6 +44,7 @@ In the the `test` directory you will find the following files:
 
 ## Related info
 
+* [grunt-init-helper](https://github.com/assemble/grunt-init-assemble): generate new Handlebars helpers for Assemble.
 * [grunt-init-helper](https://github.com/assemble/grunt-init-helper): generate new Handlebars helpers for Assemble.
 * [handlebars-helpers](https://github.com/assemble/handlebars-helpers)
 * [Assemble's documentation](http://assemble.io)
