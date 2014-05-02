@@ -27,7 +27,7 @@ To force `grunt-init` to use custom default values, move the `defaults.json` fil
 ### Usage
 Now that `grunt init` is intalled. At the command-line, cd into an empty directory and run `grunt-init assemble` and follow the prompts. You might want to test that it works before you begin customizing the project:
 
- * Next, run `npm install` to install the project's dependencies.
+ * Next, run `npm install && bower install` to install the project's dependencies.
 * Then, run `grunt` to build the project and test that it works.
 
 _Note that this template will generate files in the current directory, so be sure to change to a new directory first._
